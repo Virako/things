@@ -37,5 +37,25 @@ World with the following commands run in the top-level directory of ofw:
     cd build
     cmake ..
     make
-    ./src/ofw # Run game
-    ctest     # Run test
+
+Usage:
+------
+
+Open Fantsay World is easy to use. Just type:
+
+    ./src/ofw
+
+..in the build directory.
+
+Testing:
+--------
+
+For run the test, type:
+
+    make test
+
+or
+
+    ctest
+
+..in the build directory.
