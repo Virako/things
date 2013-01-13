@@ -12,24 +12,30 @@ Requirements:
 * Boost 1.49, http://www.boost.org/users/download/
 
 
-Building:
+Download:
 =========
 
-Linux:
-------
+The source code is available from github, you can clone the git tree by doing:
 
-> git clone https://github.com/Virako/ofw.git
+    git clone https://github.com/Virako/ofw.git
 
-> cd ofw
 
-> mkdir build
+Compilation:
+============
 
-> cd build
+Open Fantasy World use CMake as build system. The complete compilation process
+depends on the system you are using (Linux, Mac OS X or Windows).
 
-> cmake ..
+Quick compilation under Unix:
+-----------------------------
 
-> make
+Under Unix, assuming that Irrlicht and Boost are installed system-wide, you can
+compile (with optimisation and debug information) and install Open Fantasy
+World with the following commands run in the top-level directory of ofw:
 
-> ./src/ofw # Run game
-
-> ctest     # Run test
+    mkdir build
+    cd build
+    cmake ..
+    make
+    ./src/ofw # Run game
+    ctest     # Run test
