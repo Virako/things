@@ -16,5 +16,6 @@ notifications:
     on_success: change
     on_failure: always
 before_install:
-  - sudo apt-cache search boost | grep test
-  - sudo apt-get install cmake libboost # irrlicht
+  - sudo apt-get update -qq
+  - sudo apt-cache search boost
+  - sudo apt-get install cmake libboost-test-dev # irrlicht
