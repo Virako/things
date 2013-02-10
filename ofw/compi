@@ -1,0 +1,3 @@
+cmake .. && make -j 8 && ../bin/ofw
+cmake -DCMAKE_BUILD_TYPE=Release .. && make -j 8 && ../bin/ofw
+cmake -DCMAKE_BUILD_TYPE=Debug .. && make -j 8 && ../bin/ofw

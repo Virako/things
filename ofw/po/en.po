@@ -1,0 +1,22 @@
+# English translations for ofw package.
+# Copyright (C) 2013 Victor Ramirez
+# This file is distributed under the same license as the ofw package.
+# virako <virako@asus>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ofw\n"
+"Report-Msgid-Bugs-To: virako.9@gmail.com\n"
+"POT-Creation-Date: 2013-01-29 03:11+0100\n"
+"PO-Revision-Date: 2013-01-29 03:13+0100\n"
+"Last-Translator: virako <virako@asus>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: main.cpp:89
+msgid "hello"
+msgstr "hello"

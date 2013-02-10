@@ -1,0 +1,2 @@
+g++ main.cpp events.cpp -lIrrlicht -lX11 -lGL -lXrandr
+g++ client.cpp -pthread -lmongoclient -lboost_thread-mt -lboost_filesystem -lboost_program_options -lboost_system -o tutorial
