@@ -1,3 +1,4 @@
+CXX=g++-4.6
 project(ofw)
 
 # set minimum version
