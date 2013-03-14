@@ -17,5 +17,4 @@ notifications:
     on_failure: always
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-cache search g++
   - sudo apt-get install cmake libboost-all-dev libirrlicht-dev g++-4.6
