@@ -2,7 +2,6 @@ language: cpp
 compiler:
   - g++
 script:
-    - g++ -v
     - mkdir build && cd build
     - cmake ..
     - make
