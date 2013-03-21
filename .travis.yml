@@ -1,7 +1,10 @@
 language: cpp
 compiler:
   - g++
+services:
+    - mongodb
 script:
+    - mongo --version
     - mkdir build && cd build
     - cmake ..
     - make
